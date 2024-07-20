@@ -20,7 +20,7 @@ const ImageSlider = ({ images }) => {
       navigation
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
-      autoplay={{ delay: 2000, disableOnInteraction: false }} // Add autoplay settings
+      autoplay={{ delay: 3000, disableOnInteraction: false }} // Add autoplay settings
 
     >
       {images.map((image, index) => (
