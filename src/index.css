@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behavior: smooth; /* Enables smooth scrolling for all anchor links */
+}
+
 section{
     padding: 1rem;
     margin-top: 1rem;

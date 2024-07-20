@@ -19,7 +19,7 @@ const Hero = () => {
           </video>
           </div>
       <div className='flex justify-center'>
-        <button className='bg-primaryColor text-secondaryColor px-5 sm:px-8 sm:py-4  py-2 rounded-full text-[16px] sm:text-[20px] font-bold hover:bg-secondaryColor hover:text-primaryColor border-[1px] border-primaryColor'><a href="#contact">Register Now</a></button>
+        <button className='bg-primaryColor text-secondaryColor px-5 sm:px-8 sm:py-4  py-2 rounded-full text-[16px] sm:text-[20px] hover:duration-300 font-bold hover:bg-secondaryColor hover:text-primaryColor border-[1px] border-primaryColor'><a href="#contact">Register Now</a></button>
       </div>
     </section>
   )

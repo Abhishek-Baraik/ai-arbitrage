@@ -3,7 +3,7 @@ import React from 'react'
 const Comments = () => {
 
   return (
-    <section className='sm:px-[15rem] mt-10 flex flex-col gap-8'>
+    <section className='sm:px-[15rem] mt-10 mb-10 flex flex-col gap-8'>
       <div className='text-[16px] sm:text-[20px] font-bold'>619 Comments</div>
       <div className='flex gap-4 sm:gap-10 w-full'>
         <img src="dummy-user.svg" className='w-[50px] sm:w-[90px]' alt="user" />
@@ -34,7 +34,7 @@ const Comments = () => {
       <div className='border-l-[1px] flex flex-col gap-4 border-zinc-300 ml-14 sm:ml-24'>
       <div className='flex ml-2 gap-4'>
         <div>
-        <img src="ronald.webp" className='rounded-full w-[9rem] sm:w-[4.5rem]' alt="" />
+        <img src="ronald.webp" className='rounded-full w-[7rem] sm:w-[4.5rem]' alt="" />
         </div>
         <div className='flex flex-col gap-2'>
           <h3 className='text-primaryColor font-semibold text-[16px] sm:text-[20px]'>Ronald Richards</h3>
@@ -48,7 +48,7 @@ const Comments = () => {
       </div>
       <div className='flex ml-2 gap-4'>
         <div>
-        <img src="marvin.webp" className='rounded-full w-[16rem] sm:w-[7rem]' alt="" />
+        <img src="marvin.webp" className='rounded-full w-[12rem] sm:w-[7rem]' alt="" />
         </div>
         <div className='flex flex-col gap-2'>
           <h3 className='text-primaryColor font-semibold text-[16px] sm:text-[20px]'>Marvin McKinney</h3>
@@ -83,7 +83,8 @@ const Comments = () => {
         </div>
         <div className='flex flex-col gap-2'>
           <h3 className='text-primaryColor font-semibold text-[16px] sm:text-[20px]'>Cameron Williamson</h3>
-          <p className='text-[15px] sm:text-[18px] font-normal'>Now I have the opportunity to go on holiday this year :) And the buzz itself is that I will rest, and the system will earn day and night. This is just a fairy tale!</p>
+          <p className='text-[15px] sm:text-[18px] font-normal'>Now I have the opportunity to go on holiday this year :) And the buzz itself is that I will rest, and the system will earn day and night. This is just a fairy tale!...<a className='text-primaryColor sm:text-[18px] font-semibold text-[16px]' href="#contact">See More</a>
+          </p>
           <div className='flex gap-2'>
             <a className='text-primaryColor sm:text-[18px] font-semibold text-[16px]' href="#contact">Like</a>
             <a className='text-primaryColor sm:text-[18px] font-semibold text-[16px]' href="#contact">Reply</a>
@@ -110,11 +111,13 @@ const Comments = () => {
       <div className='border-l-[1px] flex flex-col gap-4 border-zinc-300 ml-14 sm:ml-24'>
       <div className='flex ml-2 gap-4'>
         <div>
-        <img src="eleanor.webp" className='rounded-full w-[3.5rem] sm:w-[4rem]' alt="" />
+        <img src="eleanor.webp" className='rounded-full w-[2.5rem] sm:w-[4rem]' alt="" />
         </div>
         <div className='flex flex-col gap-2'>
           <h3 className='text-primaryColor font-semibold text-[16px] sm:text-[20px]'>Eleanor Pena</h3>
-          <p className='text-[15px] sm:text-[18px] font-normal'>Just signed up, people, wish me good luck! ...</p>
+          <p className='text-[15px] sm:text-[18px] font-normal'>Just signed up, people, wish me good luck! ...
+          <a className='text-primaryColor sm:text-[18px] font-semibold text-[16px]' href="#contact">See More</a>
+          </p>
           <div className='flex gap-2'>
             <a className='text-primaryColor sm:text-[18px] font-semibold text-[16px]' href="#contact">Like</a>
             <a className='text-primaryColor sm:text-[18px] font-semibold text-[16px]' href="#contact">Reply</a>
@@ -124,7 +127,7 @@ const Comments = () => {
       </div>
       <div className='flex ml-2 gap-4'>
         <div>
-        <img src="tomas.webp" className='rounded-full w-[15rem] sm:w-[7rem]' alt="" />
+        <img src="tomas.webp" className='rounded-full w-[11rem] sm:w-[7rem]' alt="" />
         </div>
         <div className='flex flex-col gap-2'>
           <h3 className='text-primaryColor font-semibold text-[16px] sm:text-[20px]'>Thomas Walker</h3>
@@ -135,6 +138,9 @@ const Comments = () => {
             <p className='font-semibold opacity-80 text-[16px] sm:text-[17px]'>252 · 1 min</p>
           </div>
         </div>
+      </div>
+      <div className='bg-zinc-200 ml-2 p-3 sm:w-1/2 flex justify-center'>
+        <a href="#contact">Show 10 more replies in this thread</a>
       </div>
       </div>
       
@@ -152,7 +158,9 @@ const Comments = () => {
           </div>
         </div>
       </div>
-
+      <div className='flex justify-center mt-10'>
+      <button className='bg-primaryColor mx-auto sm:w-3/4 text-secondaryColor px-3 py-2 sm:px-0 sm:py-0 rounded-full text-[20px] sm:text-[48px] font-bold hover:bg-secondaryColor hover:text-primaryColor border-[1px] border-primaryColor flex items-center justify-center hover:duration-300'><a href="#contact">Get Started With AI Arbitrage</a></button>
+      </div>
     </section>
   )
 }

@@ -9,7 +9,7 @@ const Form = () => {
     "Provide financial support to their family and friends",
   ];
   return (
-    <section className="sm:px-[15rem] mt-10 sm:flex gap-5 mb-10">
+    <section id="contact" className="sm:px-[15rem] mt-10 sm:flex gap-5 mb-10">
       <div className="sm:w-1/2">
         <div className="text-[20px] sm:text-[40px] font-bold mb-4">
           Thanks to AI Arbitrage, more than 100,000 Canadians have already been
@@ -76,7 +76,7 @@ const Form = () => {
             />
           </div>   
           <div className="flex justify-center">
-          <button type="submit" className='bg-primaryColor text-secondaryColor px-5 sm:px-4 sm:py-2  py-2 rounded-full text-[16px] sm:text-[20px] font-bold hover:bg-secondaryColor hover:text-primaryColor border-[1px] border-primaryColor mx-auto w-[100%]'>Sign Up</button>
+          <button type="submit" className='bg-primaryColor text-secondaryColor px-5 sm:px-4 sm:py-2  py-2 rounded-full text-[16px] sm:text-[20px] font-bold hover:bg-secondaryColor hover:text-primaryColor border-[1px] border-primaryColor mx-auto w-[100%] hover:duration-300'>Sign Up</button>
           </div>
         </form>
         <div className="text-[18px] opacity-80 font-bold p-4 border-l-[1px] border-r-[1px] border-b-[1px] rounded-b-xl border-zinc-300 text-center">3 Spots Left</div>

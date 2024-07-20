@@ -70,7 +70,7 @@ const Faqs = () => {
                 animate={{ height: "auto" }}
                 exit={{ height: 0 }}
               >
-                <p className="text-[14px] opacity-70 pl-5">{faq.answer}</p>
+                <p className="text-[16px] font-normal opacity-70 pl-5">{faq.answer}</p>
               </motion.div>
             )}
           </AnimatePresence>
