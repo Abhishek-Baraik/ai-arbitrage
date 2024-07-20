@@ -34,7 +34,7 @@ const Success = () => {
             playsInline
             controls
           >
-            <source src="/src/assets/alex.mp4" type="video/mp4" />
+            <source src="alex.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <div className="p-4 flex items-center justify-center bg-zinc-300 rounded-b-lg uppercase font-semibold">
@@ -49,7 +49,7 @@ const Success = () => {
             playsInline
             controls
           >
-            <source src="/src/assets/lilly.mp4" type="video/mp4" />
+            <source src="lilly.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <div className="p-4 flex items-center justify-center rounded-b-lg bg-zinc-300 uppercase font-semibold">
