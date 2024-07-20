@@ -19,7 +19,7 @@ const Success = () => {
             playsInline
             controls
           >
-            <source src="/src/assets/melani.mp4" type="video/mp4" />
+            <source src="melani.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <div className="p-4 flex items-center justify-center rounded-b-lg bg-zinc-300 uppercase font-semibold">
