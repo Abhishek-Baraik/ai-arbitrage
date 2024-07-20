@@ -1,0 +1,25 @@
+
+.accordion-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 16px 0;
+  }
+  
+  .accordion-content {
+    overflow: hidden;
+  }
+  
+  .accordion-content p {
+    margin: 0;
+    padding: 16px 0;
+  }
+  
+  .arrow {
+    transition: transform 0.3s;
+  }
+  
+  .active {
+    transform: rotate(180deg);
+  }
