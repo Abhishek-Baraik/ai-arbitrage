@@ -23,7 +23,7 @@ const Form = () => {
             </div>
           ))}
         </div>
-        <div className="flex flex-wrap gap-5 mt-10 items-center justify-center p-10 sm:p-2">
+        <div className="flex flex-wrap gap-5 sm:mt-10 items-center justify-center p-10 sm:p-2">
           <img src="investing.webp" alt="" />
           <img src="goggle.webp" alt="" />
           <img src="forbes.webp" alt="" />
@@ -42,6 +42,7 @@ const Form = () => {
             <label htmlFor="first name">First Name</label>
             <input 
             required
+            name="First Name"
               type="text"
               className="p-2 border-[1px] border-zinc-300 rounded-full"
             />
@@ -50,6 +51,7 @@ const Form = () => {
             <label htmlFor="last name">Last Name</label>
             <input
             required
+            name="Last Name"
               type="text"
               className="p-2 border-[1px] border-zinc-300 rounded-full"
             />
@@ -59,6 +61,7 @@ const Form = () => {
             <label htmlFor="first name">Email</label>
             <input
             required
+            name="Email"
               type="email"
               className="p-2 border-[1px] border-zinc-300 rounded-full"
             />
@@ -67,6 +70,7 @@ const Form = () => {
             <label htmlFor="first name">Phone Number</label>
             <input
             required
+            name="Phone Number"
               type="number"
               className="p-2 border-[1px] border-zinc-300 rounded-full"
             />

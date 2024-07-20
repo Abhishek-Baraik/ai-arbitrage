@@ -4,6 +4,7 @@ import Success from './components/Success'
 import Faqs from './components/Faqs'
 import Footer from './components/Footer'
 import Form from './components/Form'
+import Comments from './components/Comments'
 function App() {
 
   return (
@@ -13,6 +14,7 @@ function App() {
       <Success/>
       <Faqs/>
       <Form/>
+      <Comments/>
       <Footer/>
     </>
   )
