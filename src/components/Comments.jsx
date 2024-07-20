@@ -9,9 +9,9 @@ const Comments = () => {
         <img src="dummy-user.svg" className='w-[50px] sm:w-[90px]' alt="user" />
         <div className='border-[1px] border-zinc-400 rounded-full w-full justify-between flex items-center px-4 sm:px-8'>
         <input type="text" className='focus:border-0 outline-none ml-4 placeholder:text-black placeholder:text-[16px]' placeholder='Add a comment..' />
-          <button>
+          <a href='#contact'>
             <img src="send-message-arrow.webp" className='w-[23px] sm:w-[40px]' alt="" />
-          </button>
+          </a>
         </div>
       </div>
 

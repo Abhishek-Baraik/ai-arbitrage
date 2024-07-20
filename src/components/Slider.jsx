@@ -85,7 +85,7 @@ const Slider = () => {
   ];
 
   return (
-    <section className="bg-primaryColor flex flex-col gap-10 mb-10 mt-10">
+    <section className="bg-primaryColor flex flex-col gap-10 mt-20 pb-10 pt-10">
       <div className="flex justify-center items-center flex-col">
         <h2 className="sm:text-[48px] text-[26px] sm:w-1/2 text-white text-center font-bold">
           Become a profitable AI Arbitrage Winner!

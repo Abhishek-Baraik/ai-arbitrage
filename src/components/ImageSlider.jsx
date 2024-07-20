@@ -30,7 +30,7 @@ const ImageSlider = ({ images }) => {
               <div className="flex gap-3">
                 <img src={image.src} width={50} alt={`Slide ${index}`} />
                 <div className="flex flex-col gap-1">
-                  <h5 className="text-nowrap text-[14px] font-bold">{image.name}</h5>
+                  <h5 className="text-nowrap text-[13px] font-bold">{image.name}</h5>
                   <div className="flex text-yellow-400">
                     <FaStar />
                     <FaStar />
