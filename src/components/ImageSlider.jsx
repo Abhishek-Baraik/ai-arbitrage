@@ -25,7 +25,7 @@ const ImageSlider = ({ images }) => {
     >
       {images.map((image, index) => (
         <SwiperSlide key={index}>
-          <div className="slide h-[260px] bg-white p-7 rounded-2xl">
+          <div className="slide h-[260px] bg-white p-4 sm:p-7  rounded-2xl">
             <div className="flex justify-between gap-[4rem]">
               <div className="flex gap-3">
                 <img src={image.src} width={50} alt={`Slide ${index}`} />
