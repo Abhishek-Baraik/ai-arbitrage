@@ -25,12 +25,12 @@ const ImageSlider = ({ images }) => {
     >
       {images.map((image, index) => (
         <SwiperSlide key={index}>
-          <div className="slide h-[260px] bg-white p-4 sm:p-7  rounded-2xl">
-            <div className="flex justify-between gap-[4rem]">
+          <div className="slide h-[260px] bg-white p-2 sm:p-7  rounded-2xl">
+            <div className="flex justify-between gap-[4rem] mt-4">
               <div className="flex gap-3">
                 <img src={image.src} width={50} alt={`Slide ${index}`} />
                 <div className="flex flex-col gap-1">
-                  <h5 className="text-nowrap text-[13px] font-bold">{image.name}</h5>
+                  <h5 className="text-nowrap text-[14px] font-bold">{image.name}</h5>
                   <div className="flex text-yellow-400">
                     <FaStar />
                     <FaStar />
