@@ -87,10 +87,10 @@ const Slider = () => {
   return (
     <section className="bg-primaryColor flex flex-col gap-10 mt-20 pb-10 pt-10">
       <div className="flex justify-center items-center flex-col">
-        <h2 className="sm:text-[48px] text-[26px] sm:w-1/2 text-white text-center font-bold">
+        <h2 className="sm:text-[48px] text-[26px] lg:w-1/2 text-white text-center font-bold">
           Become a profitable AI Arbitrage Winner!
         </h2>
-        <p className="text-[16px] sm:text-[20px] sm:w-1/2 font-medium text-white text-center">
+        <p className="text-[16px] sm:text-[20px] lg:w-1/2 font-medium text-white text-center">
           People with different professions, were able to boost their income in
           the first day using the AI Arbitrage Method
         </p>

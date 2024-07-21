@@ -3,7 +3,7 @@ import React from 'react'
 const Comments = () => {
 
   return (
-    <section className='sm:px-[15rem] mt-10 mb-10 flex flex-col gap-8'>
+    <section className='lg:px-[15rem] mt-10 mb-10 flex flex-col gap-8'>
       <div className='text-[16px] sm:text-[20px] font-bold'>619 Comments</div>
       <div className='flex gap-4 sm:gap-10 w-full'>
         <img src="dummy-user.svg" className='w-[50px] sm:w-[90px]' alt="user" />
@@ -159,7 +159,7 @@ const Comments = () => {
         </div>
       </div>
       <div className='flex justify-center mt-10'>
-      <button className='bg-primaryColor mx-auto sm:w-3/4 text-secondaryColor px-3 py-2 sm:px-0 sm:py-0 rounded-full text-[20px] sm:text-[48px] font-bold hover:bg-secondaryColor hover:text-primaryColor border-[1px] border-primaryColor flex items-center justify-center hover:duration-300'><a href="#contact">Get Started With AI Arbitrage</a></button>
+      <button className='bg-primaryColor mx-auto lg:w-3/4 text-secondaryColor px-3 py-2 lg:px-0 lg:py-0 rounded-full text-[20px] sm:text-[48px] font-bold hover:bg-secondaryColor hover:text-primaryColor border-[1px] border-primaryColor flex items-center justify-center hover:duration-300'><a href="#contact">Get Started With AI Arbitrage</a></button>
       </div>
     </section>
   )

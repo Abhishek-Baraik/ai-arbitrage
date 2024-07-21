@@ -2,7 +2,7 @@ import React from "react";
 
 const Success = () => {
   return (
-    <section className="sm:px-[15rem] flex flex-col gap-5 sm:gap-10">
+    <section className="lg:px-[15rem] flex flex-col gap-5 sm:gap-10">
       <div className="text-center flex flex-col gap-2">
         <h2 className="text-[26px] sm:text-[48px] font-bold">Real success stories</h2>
         <p className="text-[16px] sm:text-[22px] sm:px-10 font-medium opacity-80">

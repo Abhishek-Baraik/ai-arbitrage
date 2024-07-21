@@ -39,7 +39,7 @@ const Faqs = () => {
   };
 
   return (
-    <section className="sm:px-[15rem] accordion flex flex-col  gap-4 sm:gap-6 mb-10 mt-10 paddings">
+    <section className="lg:px-[15rem] accordion flex flex-col  gap-4 sm:gap-6 mb-10 mt-10 paddings">
       <div>
         <h2 className="text-[26px] sm:text-[48px] font-bold text-center">FREQUENTLY ASKED QUESTIONS</h2>
       </div>

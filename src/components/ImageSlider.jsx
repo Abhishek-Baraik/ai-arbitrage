@@ -13,8 +13,11 @@ const ImageSlider = ({ images }) => {
       slidesPerView={1}
       loop={true}
       breakpoints={{
-        768: {
+        1024: {
           slidesPerView:3,
+        },
+        768:{
+          slidesPerView:2,
         },
       }}
       navigation

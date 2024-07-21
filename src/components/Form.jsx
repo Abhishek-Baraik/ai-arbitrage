@@ -1,4 +1,5 @@
 import React from "react";
+import Counter from "./Counter";
 
 const Form = () => {
   const points = [
@@ -9,7 +10,7 @@ const Form = () => {
     "Provide financial support to their family and friends",
   ];
   return (
-    <section id="contact" className="sm:px-[15rem] mt-10 sm:flex gap-5 mb-10">
+    <section id="contact" className="lg:px-[15rem] mt-10 lg:flex gap-5 mb-10">
       <div className="sm:w-1/2">
         <div className="text-[20px] sm:text-[40px] font-bold mb-4">
           Thanks to AI Arbitrage, more than 100,000 Canadians have already been
@@ -34,11 +35,12 @@ const Form = () => {
           Let AI Secure Profits with Prime Arbitrage Opportunities for You!
         </div>
         <form
-          action=""
+          action="https://api.web3forms.com/submit" method="POST"
           className="p-4 bg-secondaryColor border-l-[1px] border-r-[1px] border-zinc-300 flex flex-col gap-5"
         >
           <div className="sm:flex gap-3 w-full">
           <div className="flex flex-col gap-2 sm:w-1/2">
+          <input type="hidden" name="access_key" value="823402fd-6c42-4c2a-bc71-a6fc442c99a7"/>
             <label htmlFor="first name">First Name</label>
             <input 
             required
@@ -80,7 +82,11 @@ const Form = () => {
           </div>
         </form>
         <div className="text-[18px] opacity-80 font-bold p-4 border-l-[1px] border-r-[1px] border-b-[1px] rounded-b-xl border-zinc-300 text-center">3 Spots Left</div>
+      <div className="lg:w-1/2 mx-auto">
+        <Counter seconds={1000}/>
       </div>
+      </div>
+
     </section>
   );
 };
