@@ -9,7 +9,7 @@ const Comments = () => {
       <div className='flex gap-4 sm:gap-10 w-full'>
         <img src="dummy-user.svg" className='w-[50px] sm:w-[90px]' alt="user" />
         <div className='border-[1px] border-zinc-400 rounded-full w-full justify-between flex items-center px-4 sm:px-8'>
-        <input type="text" className='focus:border-0 outline-none ml-4 placeholder:text-black placeholder:text-[16px]' placeholder='Add a comment..' />
+        <input type="text" className='focus:border-0 outline-none ml-4 w-[90%] placeholder:text-black placeholder:text-[16px]' placeholder='Add a comment..' />
           <a href='#contact'> 
           <RiSendPlaneFill className='text-primaryColor scale-150 lg:scale-[2.5] lg:mr-4'/>
           </a>
