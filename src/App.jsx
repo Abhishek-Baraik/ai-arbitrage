@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import Form from './components/Form'
 import Comments from './components/Comments'
 import Slider from './components/Slider'
+import Countrycodes from './components/Countrycodes'
 function App() {
 
   return (
@@ -18,6 +19,7 @@ function App() {
       <Form/>
       <Comments/>
       <Footer/>
+      <Countrycodes/>
     </>
   )
 }

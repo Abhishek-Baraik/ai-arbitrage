@@ -10,3 +10,15 @@ section{
     padding: 1rem;
     margin-top: 1rem;
 }
+selected-flag{
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+}
+
+.react-tel-input .form-control {
+    width: 100% !important;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
