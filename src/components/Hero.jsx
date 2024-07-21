@@ -13,7 +13,7 @@ const Hero = () => {
           to Discover How!</p>
       </div>
       <div className='border-4 sm:border-[px] rounded-xl sm:rounded-3xl border-zinc-300'>
-        <video className='rounded-lg sm:rounded-2xl' autoPlay muted playsInline controls>
+        <video poster='thumbnail.webp' className='rounded-lg sm:rounded-2xl' autoPlay muted playsInline controls>
             <source src="Ai_Arbitrage_VR.mp4" type="video/mp4"/>
             Your browser does not support the video tag.
           </video>
