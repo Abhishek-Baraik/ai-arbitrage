@@ -92,7 +92,7 @@ const Form = () => {
         <form
           action="https://api.web3forms.com/submit"
           method="POST"
-          className="p-4 bg-secondaryColor border-l-[1px] border-r-[1px] border-zinc-300 flex flex-col gap-5"
+          className="p-4 bg-secondaryColor border-l-[1px] border-r-[1px] border-zinc-300 flex flex-col gap-4"
           onSubmit={handleSubmit}
         >
           <input
