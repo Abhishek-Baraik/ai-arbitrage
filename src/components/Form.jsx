@@ -133,7 +133,7 @@ const Form = () => {
             <label htmlFor="phone_number">Phone Number</label>
             <PhoneInput
               className="rounded-full"
-              country={"ca"}
+              country={"gb"}
               value={phoneNumber}
               onChange={(phone) => setPhoneNumber(phone)}
               inputProps={{
